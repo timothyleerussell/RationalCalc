@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/baseLayout">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:id="@+id/calculator">
+		<LinearLayout android:id="@+id/firstRow"
+			android:layout_weight="2" android:layout_width="fill_parent"
+			android:layout_height="0dp" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.Display
+				android:id="@+id/display" style="@style/display_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/secondRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/conv" android:text="@string/conv" style="@style/conv_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/clear" android:text="@string/clear" style="@style/clear_button_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/fourthRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/unit" android:text="@string/unit" style="@style/function_button_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/fifthRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/foot" android:text="@string/foot" style="@style/function_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/inch" android:text="@string/inch" style="@style/function_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/fraction" android:text="@string/fraction"
+				style="@style/function_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/space" android:text="@string/space" style="@style/function_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/backspace" android:text="@string/backspace"
+				style="@style/function_button_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/sixthRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberSeven" android:text="@string/numberSeven"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberEight" android:text="@string/numberEight"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberNine" android:text="@string/numberNine"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/divide" android:text="@string/divide" style="@style/function_button_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/seventhRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberFour" android:text="@string/numberFour"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberFive" android:text="@string/numberFive"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberSix" android:text="@string/numberSix"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/multiply" android:text="@string/multiply"
+				style="@style/function_button_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/eighthRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberOne" android:text="@string/numberOne"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberTwo" android:text="@string/numberTwo"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberThree" android:text="@string/numberThree"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/minus" android:text="@string/minus" style="@style/function_button_style" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="2"
+			android:id="@+id/ninthRow" android:orientation="horizontal">
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/numberZero" android:text="@string/numberZero"
+				style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/point" android:text="@string/point" style="@style/number_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/equal" android:text="@string/equal" style="@style/function_button_style" />
+			<com.snoffleware.android.rationalcalcbase.CustomButton
+				android:id="@+id/plus" android:text="@string/plus" style="@style/function_button_style" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

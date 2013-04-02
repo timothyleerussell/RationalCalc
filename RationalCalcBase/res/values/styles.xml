@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="button_style">
+		<item name="android:textSize">22dp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:focusable">true</item>
+		<item name="android:background">@drawable/button</item>	
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_marginRight">5dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:layout_marginLeft">5dp</item>	
+	</style>
+	
+	<style name="clear_button_style" parent="button_style">
+		<item name="android:textSize">20dp</item>
+		<item name="android:background">@drawable/clear_button</item>
+	</style>
+	
+	<style name="conv_button_style" parent="button_style">
+		<item name="android:textSize">20dp</item>
+		<item name="android:background">@drawable/conv_button</item>
+	</style>
+	
+	<style name="function_button_style" parent="button_style">
+		<item name="android:textSize">22dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">@drawable/function_button</item>
+	</style>
+	
+	<style name="number_button_style" parent="button_style">
+		<item name="android:textSize">20dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">@drawable/number_button</item>
+	</style>
+	
+	<style name="display_style">
+		<item name="android:textSize">36dp</item>
+		<item name="android:gravity">right|center_vertical</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:background">#000000</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:scrollbars">none</item>
+		<item name="android:scrollHorizontally">true</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:padding">8dp</item>
+	</style>
+
+</resources>
