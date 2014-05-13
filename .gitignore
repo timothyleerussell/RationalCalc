@@ -4,6 +4,13 @@
 *.iws
 .idea/workspace.xml
 .idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+
+bin/
+gen/
+out/
+build/
 
 #################
 ## Eclipse
