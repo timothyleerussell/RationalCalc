@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RationalCalc/RationalCalc.iml" filepath="$PROJECT_DIR$/RationalCalc/RationalCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RationalCalcBase/RationalCalcBase.iml" filepath="$PROJECT_DIR$/RationalCalcBase/RationalCalcBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RationalCalcFree/RationalCalcFree.iml" filepath="$PROJECT_DIR$/RationalCalcFree/RationalCalcFree.iml" />
+    </modules>
+  </component>
+</project>
+
