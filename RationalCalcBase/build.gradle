@@ -1,0 +1,19 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	
+	dependencies {
+		classpath 'com.android.tools.build:gradle:0.10.0'
+	}
+}
+
+apply plugin: 'android-library'
+
+android {
+	sourceSets {
+		main {
+			manifest.srcFile 'AndroidManifest.xml'
+		}
+	}
+}

@@ -1,0 +1,20 @@
+buildscript {
+	repositories {
+		//TLR: just here so gradle knows about "external" dependencies
+		mavenCentral()
+	}
+	
+	dependencies {
+		classpath 'com.android.tools.build:gradle:0.10.0'
+	}
+}
+
+apply plugin: 'android'
+
+android {
+	sourceSets {
+		main {
+			manifest.srcFile 'AndroidManifest.xml'
+		}
+	}
+}
