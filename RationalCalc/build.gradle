@@ -6,15 +6,16 @@ buildscript {
 	
 	dependencies {
 		classpath 'com.android.tools.build:gradle:0.10.0'
+		//compile project(':RationalCalcBase')
 	}
 }
 
 apply plugin: 'android'
 
 android {
-	sourceSets {
-		main {
-			manifest.srcFile 'AndroidManifest.xml'
-		}
-	}
+	//sourceSets {
+	//	main {
+	//		manifest.srcFile 'AndroidManifest.xml'
+	//	}
+	//}
 }

@@ -6,15 +6,32 @@ buildscript {
 	
 	dependencies {
 		classpath 'com.android.tools.build:gradle:0.10.0'
+		compile project(':RationalCalcBase')
 	}
 }
 
 apply plugin: 'android'
 
 android {
-	sourceSets {
-		main {
-			manifest.srcFile 'AndroidManifest.xml'
+	compileSdkVersion 19
+	buildToolsVersion "19.1"
+	
+	defaultConfig {
+		minSdkVersion 4
+		targetSdkVersion 19
+		versionCode 2
+		versionName "2.0"
+	}
+	buildTypes {
+		debug {
+		}
+		release {
 		}
 	}
+	
+	//sourceSets {
+	//	main {
+	//		manifest.srcFile 'AndroidManifest.xml'
+	//	}
+	//}
 }
