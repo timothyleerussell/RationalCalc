@@ -4,16 +4,37 @@ buildscript {
 	}
 	
 	dependencies {
-		classpath 'com.android.tools.build:gradle:0.10.0'
+		classpath 'com.android.tools.build:gradle:0.10.0'		
 	}
 }
 
 apply plugin: 'android-library'
 
+dependencies {
+	compile files('lib/commons-math/2.1/commons-math-2.1.jar')
+}
+
 android {
+	compileSdkVersion 19
+	buildToolsVersion "19.1"
+	
+	defaultConfig {
+		minSdkVersion 4
+		targetSdkVersion 19
+		versionCode 2
+		versionName "2.0"
+	}
+	
 	sourceSets {
 		main {
 			manifest.srcFile 'AndroidManifest.xml'
+			java.srcDirs = ['src']
+			resources.srcDirs = ['src']
+			res.srcDirs = ['res']			
 		}
+	}
+	
+	lintOptions {
+		abortOnError false
 	}
 }

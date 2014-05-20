@@ -1,1 +1,8 @@
-include ':RationalCalcBase'
+include 'RationalCalcBase'
+project(':RationalCalcBase').projectDir = new File('RationalCalcBase')
+
+include 'RationalCalc'
+project(':RationalCalc').projectDir = new File('RationalCalc')
+
+include 'RationalCalcFree'
+project(':RationalCalcFree').projectDir = new File('RationalCalcFree')
