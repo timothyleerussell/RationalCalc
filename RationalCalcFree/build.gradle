@@ -12,6 +12,7 @@ apply plugin: 'android'
 
 dependencies {
 	compile project(':RationalCalcBase')
+    compile files('lib/admob-sdk-android.jar')
 }
 
 android {
