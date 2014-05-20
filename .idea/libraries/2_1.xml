@@ -6,6 +6,8 @@
       <root url="jar://$PROJECT_DIR$/RationalCalcBase/lib/commons-math/2.1/commons-math-2.1-sources.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/RationalCalcBase/lib/commons-math/2.1/commons-math-2.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
