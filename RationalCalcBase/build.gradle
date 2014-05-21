@@ -10,8 +10,10 @@ buildscript {
 
 apply plugin: 'android-library'
 
-dependencies {
-	compile files('lib/commons-math/2.1/commons-math-2.1.jar')
+dependencies {	
+	compile files('lib/commons-math/2.1/commons-math-2.1.jar')	
+	compile ('com.google.android.gms:play-services:4.4.52')
+	//compile files('lib/google-play-services_lib/libs/google-play-services.jar')
 }
 
 android {
