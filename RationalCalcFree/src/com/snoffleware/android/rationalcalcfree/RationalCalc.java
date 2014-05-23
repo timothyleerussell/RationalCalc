@@ -1,9 +1,14 @@
 package com.snoffleware.android.rationalcalcfree;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+
 import android.app.Activity;
 import android.os.Bundle;
 
 public class RationalCalc extends Activity {
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {

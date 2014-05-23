@@ -2,7 +2,7 @@
 <LinearLayout android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res/com.snoffleware.android.rationalcalcfree"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical" android:id="@+id/baseLayout">
 	<LinearLayout android:orientation="vertical"
 		android:layout_height="fill_parent" android:layout_width="fill_parent"
@@ -10,15 +10,18 @@
 		<LinearLayout android:id="@+id/adLayout"
 			android:layout_weight="2" android:layout_width="fill_parent"
 			android:layout_height="0dp" android:orientation="horizontal">
-			<com.admob.android.ads.AdView
-				android:id="@+id/ad" android:layout_width="fill_parent"
-				android:layout_height="fill_parent"
-				android:layout_alignParentBottom="true"	
-				app:backgroundColor="#000000"
-				app:primaryTextColor="#FFFFFF"
-				app:secondaryTextColor="#CCCCCC"
-				app:refreshInterval="30"							
-				/>
+			<com.google.android.gms.ads.AdView
+                app:adSize="BANNER"
+                app:adUnitId="TODO_INSERT_AD_UNIT_HERE"
+                android:id="@+id/ad"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                app:backgroundColor="#000000"
+                app:primaryTextColor="#FFFFFF"
+                app:secondaryTextColor="#CCCCCC"
+                app:refreshInterval="30"
+                />
 		</LinearLayout>
 		<LinearLayout android:id="@+id/firstRow"
 			android:layout_weight="2" android:layout_width="fill_parent"

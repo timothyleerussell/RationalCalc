@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="commons-math-2.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/build/exploded-aar/RationalCalc/RationalCalcBase/unspecified/libs/commons-math-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/exploded-aar/RationalCalc-v2/RationalCalcBase/unspecified/libs/commons-math-2.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
